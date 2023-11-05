@@ -54,3 +54,19 @@ footer {
     background-color: orange;
 
 }
+
+/* Menu nav item */
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+   border: 1px solid  #3a3a3a;
+}
+
