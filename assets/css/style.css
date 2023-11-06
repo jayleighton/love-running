@@ -148,7 +148,7 @@ main {
 
 #benefits p {
     padding: 0 20px;
-    
+
 }
 
 #benefits-physical>div,
@@ -157,7 +157,24 @@ main {
     line-height: 20px;
 }
 
+/* circle cover image */
+#circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
