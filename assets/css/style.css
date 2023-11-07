@@ -217,6 +217,60 @@ main {
     line-height: 0;
 }
 
+/* Signup Page */
+#main {
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-top: 47px;
+    
+}
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    background-position: 75%;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    color: #fafafa;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border-radius: 2px;
+    border: 1px solid #fafafa;
+    padding: 0 5px;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    padding: 15px 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+}
 
 /* Footer */
 #social-networks {
@@ -316,6 +370,8 @@ main {
         column-gap: 0;
     }
 
+    
+
 }
 
 @media screen and (min-width: 992px) {
@@ -325,7 +381,7 @@ main {
     }
 
     /* Gallery */
-    
+
     #photos {
         column-count: 4;
         column-gap: 0;
